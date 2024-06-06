@@ -2,6 +2,8 @@
 
 Multiple step gaming form made with React + Tailwind + Context api
 
+Hosted on : https://svg-harsh.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
