@@ -17,7 +17,7 @@ const PlanDetails = () => {
           {userPlans.map((plan) => (
             <div
               key={plan.name}
-              className={`rounded-lg shadow-md p-4 w-40 ${
+              className={`rounded-lg shadow-md p-4 w-40 cursor-pointer ${
                 userPlan === plan.name
                   ? "border-2 border-blue-500 bg-[#eeecec]"
                   : "bg-white"
@@ -25,9 +25,9 @@ const PlanDetails = () => {
               onClick={() => setUserPlan(plan.name)}
             >
               <div className="flex mb-8">
-                <div className="rounded-full p-2 bg-gray-100 text-gray-800">
-                  {plan.icon}
-                </div>
+                <>
+                  <img src={plan.icon} alt="plan" />
+                </>
               </div>
               <h3 className="text-xl font-ubuntu-medium text-[#0b0f72]">
                 {plan.name}
