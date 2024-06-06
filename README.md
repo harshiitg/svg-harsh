@@ -8,6 +8,7 @@ Hosted on : https://svg-harsh.vercel.app/
 
 In the project directory, you can run:
 
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.\
