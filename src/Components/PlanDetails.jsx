@@ -29,7 +29,7 @@ const PlanDetails = () => {
                   {plan.icon}
                 </div>
               </div>
-              <h3 className="text-xl font-semibold text-[#0b0f72]">
+              <h3 className="text-xl font-ubuntu-medium text-[#0b0f72]">
                 {plan.name}
               </h3>
               <p className="text-gray-500">
@@ -41,7 +41,13 @@ const PlanDetails = () => {
       </div>
       <div className="flex justify-center mt-8 h-12">
         <div className="flex items-center justify-center space-x-4 bg-gray-200 rounded-xl w-full">
-          <span className="text-gray-700 font-bold py-2 px-4 rounded-l-lg">
+          <span
+            className={`py-2 px-4 rounded-l-lg ${
+              !isYearly
+                ? "text-gray-400 font-ubuntu-regular"
+                : "text-gray-700 font-ubuntu-bold"
+            }`}
+          >
             Monthly
           </span>
           <label className="relative inline-flex items-center cursor-pointer">
@@ -64,7 +70,13 @@ const PlanDetails = () => {
               }}
             />
           </label>
-          <span className="text-gray-700 font-bold py-2 px-4 rounded-r-lg">
+          <span
+            className={`${
+              isYearly
+                ? "text-gray-400 font-ubuntu-regular"
+                : "text-gray-700 font-ubuntu-bold"
+            } py-2 px-4 rounded-r-lg`}
+          >
             Yearly
           </span>
         </div>

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { AppContext } from "../Context/AppContext";
 
 const StepButtons = () => {
@@ -26,14 +26,14 @@ const StepButtons = () => {
       >
         {currentPage !== 1 && (
           <button
-            className="bg-white text-[#4646a5] hover:text-[#0f0fe1] font-semibold"
+            className="bg-white text-[#4646a5] hover:text-[#0f0fe1] font-ubuntu-medium"
             onClick={() => setCurrentPage(false)}
           >
             Go Back
           </button>
         )}
         <button
-          className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
+          className="bg-blue-700 hover:bg-blue-900 text-white font-ubuntu-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline"
           onClick={handleNext}
         >
           {currentPage === 4 ? "Confirm" : "Next Step"}

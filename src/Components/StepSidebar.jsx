@@ -48,9 +48,9 @@ const StepSidebar = () => {
                 step.stepNumber === currentPage ? "bg-[#bdd0d0]" : ""
               }`}
             >
-              <p className="font-bold text-lg">{step.stepNumber}</p>
+              <p className="font-ubuntu-bold text-lg">{step.stepNumber}</p>
             </div>
-            <p className="font-bold text-lg text-white">{step.title}</p>
+            <p className="font-ubuntu-bold text-lg text-white">{step.title}</p>
           </div>
         ))}
       </div>

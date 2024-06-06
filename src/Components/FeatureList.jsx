@@ -13,11 +13,11 @@ const Feature = ({ title, description, price, checked, onChange }) => {
           className="w-5 h-5 rounded-full border-gray-300 focus:ring-2 focus:ring-blue-500"
         />
         <div className="ml-4">
-          <h3 className="font-semibold text-gray-800">{title}</h3>
-          <p className="text-gray-500 text-sm">{description}</p>
+          <h3 className="font-ubuntu-medium text-gray-800">{title}</h3>
+          <p className="text-gray-500 text-sm font-ubuntu-regular">{description}</p>
         </div>
       </div>
-      <p className="font-medium text-blue-500">{`+${price}/mo`}</p>{" "}
+      <p className="font-ubuntu-medium text-blue-500">{`+${price}/mo`}</p>{" "}
     </div>
   );
 };
@@ -32,7 +32,7 @@ const FeatureList = () => {
     setUserAddOns(updatedAddOns);
   };
 
-  console.log(userAddOns)
+  console.log(userAddOns);
 
   return (
     <div className="container mx-auto mt-6 flex flex-col gap-3">

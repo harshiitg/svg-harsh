@@ -17,7 +17,7 @@ const PersonalInfoContent = () => {
       <div>
         <label
           htmlFor="name"
-          className="block text-sm font-medium leading-5 text-gray-700"
+          className="block text-sm font-ubuntu-medium leading-5 text-gray-700"
         >
           Name
         </label>
@@ -34,7 +34,7 @@ const PersonalInfoContent = () => {
       <div>
         <label
           htmlFor="email"
-          className="block text-sm font-medium leading-5 text-gray-700"
+          className="block text-sm font-ubuntu-medium leading-5 text-gray-700"
         >
           Email Address
         </label>
@@ -51,7 +51,7 @@ const PersonalInfoContent = () => {
       <div>
         <label
           htmlFor="phone"
-          className="block text-sm font-medium leading-5 text-gray-700"
+          className="block text-sm font-ubuntu-medium leading-5 text-gray-700"
         >
           Phone Number
         </label>
