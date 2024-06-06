@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { AppContext } from "../Context/AppContext";
-import { UserAddOns } from "../Utils/UserAddOns";
+import { AppContext } from "../context/AppContext";
+import { UserAddOns } from "../utils/UserAddOns";
 
 const Feature = ({ title, description, price, checked, onChange }) => {
   return (

@@ -7,7 +7,7 @@ import FinalPage from "./FinalPage";
 import PricingCard from "./PricingCard";
 import FeatureList from "./FeatureList";
 import PlanDetails from "./PlanDetails";
-import { AppContext } from "../Context/AppContext";
+import { AppContext } from "../context/AppContext";
 
 const LandingPage = () => {
   const context = useContext(AppContext);

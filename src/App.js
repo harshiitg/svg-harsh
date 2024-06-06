@@ -1,6 +1,6 @@
 import React from "react";
-import { AppContextProvider } from "./Context/AppContext";
-import LandingPage from "./Components/LandingPage";
+import { AppContextProvider } from "./context/AppContext";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import isValidEmail from "../utils/EmailValidation";
 
 export const AppContext = React.createContext();
 
@@ -81,6 +82,9 @@ export class AppContextProvider extends React.Component {
 
     if (!email) {
       errors.email = "This field is required";
+      isValid = false;
+    } else if (!isValidEmail(email)) {
+      errors.email = "Please enter a valid email";
       isValid = false;
     }
 
