@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import bgSidebar from "./../assets/images/bg-sidebar-desktop.svg";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 
 const StepSidebar = () => {
   const context = useContext(AppContext);

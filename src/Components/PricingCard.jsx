@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { userPlans } from "../utils/UserPlans";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 
 const PricingItem = ({ title, price }) => (
   <div className="flex justify-between items-center py-2">
