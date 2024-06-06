@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AppContext } from "../Context/AppContext";
-import { HeaderTextMap } from "../utils/HeaderTextMap";
+import { HeaderTextMap } from "../Utils/HeaderTextMap";
 
 const StepHeader = () => {
   const context = useContext(AppContext);

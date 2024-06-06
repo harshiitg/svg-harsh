@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AppContext } from "../Context/AppContext";
-import { userPlans } from "../utils/UserPlans";
+import { userPlans } from "../Utils/UserPlans";
 
 const PlanDetails = () => {
   const { userPlan, setUserPlan, isYearly, setIsYearly } =

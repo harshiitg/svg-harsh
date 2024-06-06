@@ -1,5 +1,5 @@
 import React from "react";
-import isValidEmail from "../utils/EmailValidation";
+import isValidEmail from "../Utils/EmailValidation";
 
 export const AppContext = React.createContext();
 

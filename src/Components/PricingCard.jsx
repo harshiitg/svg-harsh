@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { userPlans } from "../utils/UserPlans";
+import { userPlans } from "../Utils/UserPlans";
 import { AppContext } from "../Context/AppContext";
 
 const PricingItem = ({ title, price }) => (
